@@ -1,0 +1,85 @@
+/* ESTRUCTURA GENERAL */
+body {
+    font-family: sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* ENCABEZADOS */
+h1, h2 {
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    color: #ff0101;
+}
+
+/* FORMULARIOS */
+textarea,
+input[type="submit"] {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #0056b3;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #004494;
+}
+
+/* RESULTADOS */
+.resultados {
+    margin-top: 20px;
+    background-color: #e9ecef;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+.resultados h3 {
+    margin-top: 0;
+    color: #555;
+}
+
+.resultados pre {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+/* MENSAJES DE ERROR */
+.error {
+    color: red;
+    font-weight: bold;
+}
+
+/* CANVAS */
+.canvas-container {
+    margin-top: 30px;
+    text-align: center;
+}
+
+canvas {
+    display: block;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
